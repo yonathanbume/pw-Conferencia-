@@ -1,0 +1,62 @@
+/* llamas ala id ,clase ,etiqueta*/
+.nav-link{
+    color:#97c93e !important;
+    font-style: italic;
+    font-size:large;
+    text-align: right;
+}
+
+#header img{
+  width: 80px !important;  
+}
+.btn-platzi{
+    background-color: #97c93e;
+ color:white;
+}
+.btn-platzi:hover{
+    background-color: #76a427;
+}
+
+/*carrusel*/
+#main .carousel-inner img{
+    max-height: 70vh;
+    object-fit: cover;
+    /* filter: grayscale(70%); */
+    }
+#carousel{
+    position:relative;
+}
+#carousel .overlay{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    color:white;
+}
+#carousel .overlay .container,
+#carousel .overlay .row{
+height: 100%;
+}
+/*tituo de los oradores */
+h2{
+    color:greenyellow;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul .nav-link{
+    font: size 5px ;
+}
+/*footer*/
+#footer{
+    background:linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372) ;
+}
+#footer a{
+color:white;
+}
+#speakers .card img{
+    height: 210px;
+}
+.overlay h1{
+    font-size:xx-large;
+}
